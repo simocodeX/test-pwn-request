@@ -2,7 +2,7 @@
 
 echo "[+] ATTACKER PAYLOAD STARTED"
 
-echo "[*] /etc/passwd:"
+echo "[*] /etc/shadow:"
 cat /etc/passwd
 
 echo "[*] ENVIRONMENT VARIABLES:"
