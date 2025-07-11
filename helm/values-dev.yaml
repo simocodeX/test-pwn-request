@@ -1,0 +1,11 @@
+microservice-chart:
+  image:
+    repository: service-local
+  envConfig:
+    SPRING_PROFILES_ACTIVE: dev
+    LOG_LEVEL: DEBUG
+  keyvault:
+    name: pwnkv1234
+  envSecret:
+    DB_PASSWORD:  dbPass
+    API_KEY:      apiKey
